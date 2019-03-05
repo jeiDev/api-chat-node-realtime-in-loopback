@@ -1,6 +1,14 @@
 {
   "db": {
     "name": "db",
-    "connector": "memory"
+    "connector": "memory",
+    "file": "database.json"
+  },
+  "filesystem": {
+    "name": "filesystem",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "uploads",
+    "maxFileSize": "500000000"
   }
 }

@@ -34,5 +34,9 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "Container": {
+    "dataSource": "filesystem",
+    "public": true
   }
 }
