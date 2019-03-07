@@ -38,5 +38,9 @@
   "Container": {
     "dataSource": "filesystem",
     "public": true
+  },
+  "message": {
+    "dataSource": "db",
+    "public": false
   }
 }
