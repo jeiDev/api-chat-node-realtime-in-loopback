@@ -42,5 +42,9 @@
   "message": {
     "dataSource": "db",
     "public": false
+  },
+  "MessagesUser": {
+    "dataSource": "db",
+    "public": true
   }
 }
